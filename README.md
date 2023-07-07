@@ -25,3 +25,33 @@ https://github.com/yluoc/WeatherApp-APK.git
 
 - Besides the above operations, people can also Modify the background, check the current version, clear all the 
   saved data, and share the app to others.
+
+## Container class layout
+- RelativeLayout
+- LinearLayout
+## Basic controls
+- TextView
+- Button
+- ImageView
+- EditText
+## Complex controls
+- ListView
+   - BaseAdapter
+- GridView
+- ViewPager
+  - FragmentBaseAdapter
+- CardView
+## Activity
+- Creating and binding layouts
+- Life Cycle
+- Jumping and passing values
+## Fragment
+- Loading into the ViewPager
+- Fragment passes value to activity
+## Database saving - operations of database
+- SQLiteOpenHelper's creating and using.
+- Calling SQLitDatabase function
+## Use of third-party frameworks
+- Picasso： Framework for loading web images
+- xutils： Package complete multifunctional framework, mainly for network data acquisition functions
+- Gson： Framework for parsing json data
