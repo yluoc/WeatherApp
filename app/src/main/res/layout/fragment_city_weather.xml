@@ -13,15 +13,14 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
         <RelativeLayout
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:padding="10dp">
-
             <TextView
                 android:id="@+id/graf_tv_currenttemp"
                 android:layout_height="wrap_content"
                 android:layout_width="wrap_content"
-                android:text="3℃"
+                android:text="3 ℃"
                 android:textSize="40sp"
                 android:textStyle="bold"/>
 
@@ -41,7 +40,7 @@
             <TextView
                 android:id="@+id/frag_tv_date"
                 style="@style/todaytext"
-                android:text="2019-11-05"
+                android:text="2023-07-07"
                 android:layout_below="@id/frag_tv_condition"
                 android:layout_marginTop="20dp"/>
 
@@ -49,12 +48,13 @@
                 android:id="@+id/frag_tv_wind"
                 style="@style/todaytext"
                 android:layout_below="@id/frag_tv_date"
+                android:layout_marginTop="5dp"
                 android:text="东北风3~4级"/>
 
             <TextView
                 android:id="@+id/frag_tv_line1"
                 android:layout_width="2dp"
-                android:layout_height="30dp"
+                android:layout_height="25dp"
                 android:layout_toRightOf="@id/frag_tv_wind"
                 android:background="#000000"
                 android:layout_alignBottom="@id/frag_tv_wind"
@@ -72,8 +72,8 @@
                 android:layout_width="120dp"
                 android:layout_height="120dp"
                 android:id="@+id/frag_iv_today"
-                android:layout_alignParentRight="true"
-                />
+                android:scaleType="centerCrop"
+                android:layout_alignParentRight="true"/>
         </RelativeLayout>
         <!--For the following days weather-->
         <LinearLayout

@@ -4,7 +4,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.lyc.MainActivity"
     android:background="@drawable/bg"
     android:id="@+id/main_out_layout">
 
@@ -34,7 +33,6 @@
             android:layout_centerInParent="true">
         </LinearLayout>
     </RelativeLayout>
-
     <androidx.viewpager.widget.ViewPager
         android:id="@+id/main_vp"
         android:layout_height="match_parent"
